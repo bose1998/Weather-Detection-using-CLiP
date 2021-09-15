@@ -20,7 +20,7 @@ for i in range(1,67):
     weather_li=[]
     weather_percent=[]
         
-    img = Image.open('/img ({}).jpg'.format(i))
+    img = Image.open('images/img ({}).jpg'.format(i))
         
     display(img.resize((500,500)))
     image_input = preprocess(img).unsqueeze(0).to(device)
