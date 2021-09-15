@@ -16,7 +16,7 @@ pip3 install -r requirements.txt
 ```
 Once the installation is done, We must put additional images in folder **images**. Around 5 images are already provided in the folder but you may add additional dashcam images to test the model with.
 
-After all this is done, there is just one more step left. Go to the code **linear_dataset_classifier.py** and **list_of_dataset_classifiers.py** and change the number 67 in line number with however many images are there in folder **images**.
+After all this is done, there is just one more step left. Go to the code **linear_dataset_classifier.py** and **list_of_dataset_classifiers.py** and change the number 67 in line number 19 with however many images are there in folder **images**.
 
 Congartulations! you have finished modifying the code, now simply run the python codes as below
 
