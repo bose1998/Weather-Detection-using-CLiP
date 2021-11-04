@@ -1,5 +1,8 @@
 # Weather-Detection-using-CLiP
 
+
+CLIP (Contrastive Language-Image Pre-Training) is a foundational model trained on a large amount of (image, text) pairs that have been directly scraped from the internet. The shear size of the model and the dataset that it has been trained on gives it some amazing properties that allow it to perform tasks like "zero-shot" prediction on a variety of tasks. It has similar zero-shot capabilities like GPT-3 where it can find the most relevant text snippet given an image through a training-procedure called "contrastive-learning". It has been found that CLIP matches the performance of the original ResNet50 on ImageNet “zero-shot” without using any of the original 1.28M labeled examples in the dataset, overcoming several major challenges in computer vision.
+
 ### INSTALLATION
 
 Install the following packages to use the CliP model
